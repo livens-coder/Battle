@@ -1,4 +1,4 @@
-teks = input("Antre yon tèks: ")
+teks = input("Antre yon teks: ")
 teks = teks.lower()
 
 kantite_a = 0
@@ -12,11 +12,11 @@ for let in teks:
 
 if kantite_a == kantite_i:
     print("Kantite fwa 'a' ak 'i' se menm.")
-    print("Nan tèks ou gen:", kantite_a, "'a'")
-    print("Nan tèks ou gen:", kantite_i, "'i'")
+    print("Nan teks ou gen:", kantite_a, "'a'")
+    print("Nan teks ou gen:", kantite_i, "'i'")
 else:
     print("Kantite 'a' ak 'i' pa menm.")
-    print("Nan tèks ou gen:", kantite_a, "'a'")
-    print("Nan tèks ou gen:", kantite_i, "'i'")
+    print("Nan teks ou gen:", kantite_a, "'a'")
+    print("Nan teks ou gen:", kantite_i, "'i'")
 
 
